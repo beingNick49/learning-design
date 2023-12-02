@@ -1,0 +1,180 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fa;
+}
+
+.card {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+a {
+  color: #495057;
+}
+
+a:hover {
+  color: #495057;
+  text-decoration: none;
+}
+
+h1 {
+  color: #495057;
+}
+
+.card-deck .card {
+  min-width: 200px;
+}
+
+/* Navbar styles */
+nav {
+  background: linear-gradient(to right, #ff512f, #dd2476);
+}
+
+.navbar-brand {
+  color: white;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffc107;
+}
+
+.navbar-toggler-icon {
+  background-color: white;
+}
+
+/* Footer styles */
+footer {
+  background: linear-gradient(to right, #4776e6, #8e54e9);
+  color: white;
+  padding: 40px 0;
+}
+
+.social-icons {
+  font-size: 1.8rem;
+  margin: 0 10px;
+  color: white;
+}
+
+.social-icons:hover {
+  color: #ffc107;
+}
+
+.phone-specs {
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #fff;
+}
+
+th {
+  text-transform: uppercase;
+}
+
+/* 
+<style>
+      body {
+        font-family: 'Poppins', sans-serif;
+        background-color: #f8f9fa;
+      }
+
+      .card {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        transition: transform 0.3s ease-in-out;
+      }
+
+      .card:hover {
+        transform: scale(1.05);
+      }
+
+      .card-img-top {
+        height: 200px;
+        object-fit: cover;
+      }
+
+      a {
+        color: #495057;
+      }
+
+      a:hover {
+        color: #495057;
+        text-decoration: none;
+      }
+
+      h1 {
+        color: #495057;
+      }
+
+      .card-deck .card {
+        min-width: 200px;
+      }
+
+      /* Navbar styles */
+      nav {
+        background: linear-gradient(to right, #ff512f, #dd2476);
+      }
+
+      .navbar-brand {
+        color: white;
+        font-size: 1.8rem;
+        font-weight: bold;
+      }
+
+      .navbar-nav .nav-link {
+        color: white;
+      }
+
+      .navbar-nav .nav-link:hover {
+        color: #ffc107;
+      }
+
+      .navbar-toggler-icon {
+        background-color: white;
+      }
+
+      /* Footer styles */
+      footer {
+        background: linear-gradient(to right, #4776e6, #8e54e9);
+        color: white;
+        padding: 40px 0;
+      }
+
+      .social-icons {
+        font-size: 1.8rem;
+        margin: 0 10px;
+        color: white;
+      }
+
+      .social-icons:hover {
+        color: #ffc107;
+      }
+
+      .phone-specs {
+        border: 1px solid #dee2e6;
+        border-radius: 10px;
+        padding: 20px;
+        margin: 20px 0;
+        background-color: #fff;
+      }
+
+      th {
+        text-transform: uppercase;
+      }
+    </style> */
